@@ -1,0 +1,424 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html, body{
+   width: 100%;
+   height: 100%;
+}
+body,html{
+   overflow-x: hidden;
+}
+.navbar{
+   width: 100%;
+   height: 50px;
+   background-color: rgba(0, 0, 0, 0.84);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+}
+.navbar ul{
+   display: flex;
+   list-style: none;
+   gap: 30px;
+}
+.navbar ul li a{
+   text-decoration: none;
+   font-size: 20px;
+   padding: 10px 20px;
+   color: antiquewhite;
+}
+.logo{
+   padding: 10px 12px;
+   font-size: 30px;
+   color: aliceblue;
+}
+span{
+   color: yellow;
+}
+
+/* Header */
+
+header{
+   width: 100%;
+   height: 100%;
+   background-color: white;
+}
+.container{
+   display: flex;
+}
+.container h1{
+   margin-top: 280px;
+   margin-left: 150px;
+   font-size: 40px;
+}
+.img-back{
+   margin-left: 380px;
+   margin-top: 110px;
+}
+ p{
+   font-size: 20px;
+   margin-top: -170px;
+   margin-left: 150px;
+   color: black;
+}
+button{
+   padding: 8px 15px;
+   background: black;
+   border-radius: 30px;
+   color: aliceblue; 
+   text-decoration: none;
+   margin-left: 180px;
+   margin-top: 20px;
+   cursor: pointer;
+}
+
+/* Section */
+
+section{
+   height: 75%;
+   width: 100%;
+   background-color: white;
+}
+ h1{
+  margin-left: 750px;
+}
+.products{
+   display: flex;
+}
+.box1 img{
+   width: 400px;
+   margin-left: 50px;
+   cursor: pointer;
+}
+.box1 h2{
+   margin-top: -38px;
+   margin-left: 100px;
+}
+.rating{
+  margin-left: 90px;
+  cursor: pointer;
+}
+.rating h3{
+   margin-top: 4px;
+   margin-left: 2px;
+}
+.cart img{
+ margin-left: 170px;  
+ margin-top: -36px;
+}
+.box2 h2{
+   margin-left: 95.2px;
+}
+.box2 img{
+   cursor: pointer;
+}
+.box3 h2{
+   margin-left: 95.2px;
+}
+.box3 img{
+   cursor: pointer;
+}
+.box4 h2{
+   margin-left: 95.2px;
+}
+.box4 img{
+   cursor: pointer;
+}
+
+/* section class */
+.aman{
+   height: 75%;
+   width: 100%;
+   background-color: white;
+}
+.parent{
+   display: flex;
+}
+.rating{
+   margin-top: -2px;
+}
+.box5 img{
+   cursor: pointer;
+}
+.box5 h2{
+   margin-left: 90px;
+   margin-top: 10px;
+}
+.box6 img{
+  /* margin-left: 90px; */
+  cursor: pointer;
+}
+.box6 h2{
+   margin-left: 95.2px;
+}
+.box7 img{
+   margin-left: -160px;
+   cursor: pointer;
+}
+.box7 h2{
+   margin-left: 100px;
+}
+
+.box8 img{
+   cursor: pointer;
+}
+.box8 h2{
+   margin-left: 95.2px;
+}
+.menu-btn{
+   width: 30px;
+   display: none;
+   cursor: pointer;
+}
+
+.swing{
+   height: 100%;
+   width: 100%;
+   background-color: white;
+}
+.container2{
+   display: flex;
+}
+.container2 h1{
+   margin-left: 150px;
+   margin-top: 350px;
+}
+.imgc{
+   margin-left: 325px;
+   margin-top: 190px;
+}
+
+.goo{
+   height: 75%;
+   width: 100%;
+   background-color: white;
+}
+.chuild{
+   display: flex;
+   gap: 80px;
+}
+.box9 h2{
+   margin-left: 90px;
+   margin-top: -10px;
+}
+.box9 img{
+   cursor: pointer;
+}
+
+.box10 img{
+   margin-left: 50px;
+   margin-top: 65px;
+   cursor: pointer;
+}
+.box10 h2{
+   margin-left: 90px;
+}
+.box11 img{
+   margin-top: 60px;
+   margin-left: 33px;
+   cursor: pointer;
+}
+.box11 h2{
+   margin-left: 100px;
+}
+.box12 img{
+   margin-top: 60px;
+   margin-left: 20px;
+   cursor: pointer;
+}
+.box12 h2{
+   margin-left: 90px;
+}
+
+
+/* Section class */
+
+.gro{
+   width: 100%;
+   height: 75%;
+   background-color: white;
+}
+.parent2{
+   display: flex;
+   gap: 10px;
+}
+.box13 h2{
+   margin-top: -12px;
+   margin-left: 89px;
+}
+.box13 img{
+   cursor: pointer;
+}
+.box14{
+   margin-top: 40px;
+}
+.box14 h2{
+   margin-left: 90px;
+}
+.box14 img{
+   cursor: pointer;
+}
+.box15 h2{
+   margin-left: 90px;
+}
+.box15 img{
+   cursor: pointer;
+}
+.box16{
+   margin-top: 60px;
+}
+.box16 h2{
+   margin-left: 90px;
+}
+.box16 img{
+   cursor: pointer;
+}
+
+.footer{
+   width: 100%;
+   height: 20%;
+   min-height: 50px;
+   padding: 20px 80px;
+   margin: 0;
+   background: black;
+   text-align: center;
+}
+.footer p{
+   color: whitesmoke;
+   margin: 20px auto;
+   /* padding: 20px auto; */
+}
+
+
+/* Animation */
+img{
+   transition: transform .3s ease;
+}
+img:hover{
+   transform: scale(1.1);
+}
+
+@media  screen and (max-width:850px){
+   .menu-btn{
+      display: block;
+   }
+   .navbar{
+      padding: 0px;
+      width: 101%;
+      /* z-index: 5; */
+   }
+   .navbar{
+      width: 100%;
+   }
+   .logo{
+      position: absolute;
+      top: -4px;
+      left: 10px;
+      z-index: 5;
+   }
+   .nav-list{
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      justify-content: center;
+      margin-top: -900px;
+      transition: all 0.5s ease;
+      background: black;
+      z-index: 2;
+   }
+   .mobile-menu{
+      margin-top: 600px;
+   }
+   .nav-list li{
+      margin: 30px auto;
+      font-size: 30px;
+   }
+   .container{
+      flex-direction: column-reverse;
+   }
+   .container .img-back{
+      margin-left: -5px;
+      margin-top: 110px;
+   }
+   .container .img-back img{
+      width: 90%;
+      margin-left: 20px;
+     
+   }
+   .container h1{
+      font-size: 30px;
+   }
+   .container h1{
+      margin-top: 10px;
+      margin-left: 30px;
+      
+   }
+   p{
+      margin-top: 10px;
+      margin-left: 30px;
+   }
+   p{
+      font-size: 15px;
+   }
+   button{
+      margin-left: 50px;
+   }
+   /* Section */
+   section h1{
+      margin-left: 110px;
+   }
+   .products{
+      flex-direction: column;
+   }
+   .box1 img{
+      width: 90%;
+      margin-left: 15px;
+   }
+   .parent{
+      flex-direction: column;
+   }
+   .box5 img{
+      margin-top: 1370px;
+   }
+   .box7 img{
+      margin-left: -200px;
+   }
+
+   .container2{
+      flex-direction: column-reverse;
+   }
+   .container2 .imgc{
+      margin-top: 2850px;
+      margin-left: 10px;
+   }
+   .container2 .imgc img{
+      width: 100%;
+   }
+   .container2 h1{
+      margin-top: 10px;
+      margin-left: 30px;
+   }
+   .chuild{
+      flex-direction: column;
+   }
+   .box9 img{
+      margin-top: 2700px;
+   }
+
+   .parent2{
+      flex-direction: column;
+   }
+   .box13 img{
+      margin-top: 4250px;
+   }
+   .box13 img{
+      width: 90%;
+   }
+   .footer{
+      margin-top: 5700px;
+      padding: 10px;
+   }
+}
